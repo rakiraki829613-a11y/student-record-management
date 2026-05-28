@@ -3,7 +3,7 @@ def twosum(nums,target):
     for i in range(len(nums)):
         needed=target-nums[i]
         if needed in mp:
-            return [mp[needed],i]
+            return [mp[needed],i] n
         mp[nums[i]]=i
         nums =[2,3,4,5]
         target=8
