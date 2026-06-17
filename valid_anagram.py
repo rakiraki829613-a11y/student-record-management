@@ -5,4 +5,4 @@ def validanagram(s,t):
         return False
     s="anagram"
     t="nagaram"
-    print(validanagram(s,t))    
+    print(validanagram(s,t))
