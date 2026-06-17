@@ -4,5 +4,5 @@ def thirdmaximumnumber(nums):
     if len(nums)>=3:
         return nums[2]
     return [0]
-nums=[1,2,34,58]
+nums=[1,2,3,5]
 print(thirdmaximumnumber(nums))
