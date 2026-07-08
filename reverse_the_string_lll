@@ -1,0 +1,8 @@
+def reversestring(word):
+    words=word.split()
+    result=[]
+    for word in words:
+        result.append(words[::-1])
+    return "".join(result)
+word="hello my name is ums"
+print(reversestring(word))
